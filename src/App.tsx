@@ -1,15 +1,14 @@
-import './App.css'
-import Dashboard from './components/dashboard/dashboard'
-import Footer from './components/footer/footer'
-import Header from './components/header/header'
+import "./App.css";
+import Dashboard from "./components/dashboard/dashboard";
+import Footer from "./components/footer/footer";
+import Header from "./components/header/header";
 
 function App() {
-
   return (
     <>
-    <Header />
-    <Dashboard />
-    <Footer />
+      <Header />
+      <Dashboard />
+      <Footer />
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -31,7 +30,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
