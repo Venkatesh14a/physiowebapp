@@ -5,6 +5,11 @@ import { resolve } from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   base: "/physiowebapp/",
+  build: {
+    rollupOptions: {
+    input: './index.html'
+    }
+  },
   plugins: [react()],
   resolve: {
     alias: {
